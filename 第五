@@ -1,0 +1,14 @@
+```
+a=int(input('輸入年份：'))
+if (a%4==0):
+  if (a%100)==0:
+    if (a%400)==0:
+       print(a,'是閏年')
+    else:
+        print(a,'不是閏年')
+  else:
+     print(a,'是閏年')
+else:
+   print(a,'不是閏年')
+   ```
+   
