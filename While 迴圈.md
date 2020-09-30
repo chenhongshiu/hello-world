@@ -18,3 +18,31 @@ while i < 3:
 i+=1 #這裡在做 i=i+_1
 
 print("abc")
+
+```
+
+```
+for x in range(1,10):
+  print(x)
+  
+會 print 出換行
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+
+```
+for x in range(1,10):
+  print(x,end=(''))
+  
+會 print 出不換行 
+123456789
+
+  
