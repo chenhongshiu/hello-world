@@ -1,10 +1,9 @@
 ## 會產生無窮迴圈
 ```
-
-```
 i=1
-while i < 100:
- print(i)
+while i < 3:
+print(i)
 i+=1 #這裡在做 i=i+_1
+
 print("abc")
 ```
