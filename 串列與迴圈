@@ -1,12 +1,12 @@
-
+### 串列與迴圈
 ```
+
 fruit = list()    #先做一個清單
 for i in range(0,int(input('需要請輸入幾種水果:'))):     #詢問需要幾行
  name=input('請輸入水果:')       #開始輸入
  fruit.append(name)         #把資料(name)輸入到串列(fruit)裡
 print(fruit)
-
-##結果
+## 結果
 需要請輸入幾種水果:2
 請輸入水果:banana
 請輸入水果:orange
